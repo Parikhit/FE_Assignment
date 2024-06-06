@@ -10,7 +10,7 @@ const Description = () => {
                 </h1>
             </div>
 
-            <div className='flex items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
+            <div className='flex w-full items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
                 <div className='w-1/2'>
                     <img
                         src='man-1.jpg'
@@ -22,7 +22,7 @@ const Description = () => {
                     />
                 </div>
 
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-1/2 sm:w-fit flex flex-col gap-4'>
                     <p className='font-semibold text-gray-500'>Step 1</p>
                     <h2 className='text-2xl font-bold text-purple-800'>Answer a few questions</h2>
 
@@ -33,8 +33,8 @@ const Description = () => {
                 </div>
             </div>
 
-            <div className='flex items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
-                <div className='w-1/2 flex flex-col gap-4'>
+            <div className='flex w-full items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
+                <div className='w-1/2 sm:w-fit  flex flex-col gap-4'>
                     <p className='font-semibold text-gray-500'>Step 2</p>
                     <h2 className='text-2xl font-bold text-purple-800'>
                         Diagnosis by real people, really fast
@@ -58,7 +58,7 @@ const Description = () => {
                 </div>
             </div>
 
-            <div className='flex items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
+            <div className='flex w-full items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
                 <div className='w-1/2'>
                     <img
                         src='doc-2.jpg'
@@ -70,7 +70,7 @@ const Description = () => {
                     />
                 </div>
 
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-1/2 sm:w-fit  flex flex-col gap-4'>
                     <p className='font-semibold text-gray-500'>Step 3</p>
                     <h2 className='text-2xl font-bold text-purple-800'>Payment & Insurance</h2>
 
@@ -83,7 +83,7 @@ const Description = () => {
             </div>
 
             <div className='flex items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-1/2 sm:w-fit  flex flex-col gap-4'>
                     <p className='font-semibold text-gray-500'>Step 4</p>
                     <h2 className='text-2xl font-bold text-purple-800'>Start feeling better</h2>
 
@@ -106,7 +106,7 @@ const Description = () => {
                 </div>
             </div>
 
-            <div className='flex items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
+            <div className='flex w-full items-center justify-between border border-purple-800 p-2 rounded-lg gap-2'>
                 <div className='w-1/2'>
                     <img
                         src='trust.jpg'
@@ -118,7 +118,7 @@ const Description = () => {
                     />
                 </div>
 
-                <div className='w-1/2 flex flex-col items-center gap-4'>
+                <div className='w-1/2 sm:w-fit  flex flex-col items-center gap-4'>
                     <p className='sm:text-xl font-semibold text-gray-500'>Quality by design</p>
                     <h2 className='text-2xl font-bold text-purple-800'>Safe and secure</h2>
 
@@ -136,8 +136,8 @@ const Description = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col sm:flex-row items-center justify-between p-4 h-[400px] mb-6'>
-                <div className='flex flex-col gap-4 sm:w-1/2'>
+            <div className='flex w-full flex-col sm:flex-row items-center justify-between p-4 h-[400px] mb-6'>
+                <div className='w-1/2 sm:w-fit  flex flex-col gap-4 sm:w-1/2'>
                     <p className='text-xl text-purple-800 font-semibold'>We're here to help</p>
                     <h1 className='text-2xl md:text-3xl font-bold text-purple-800'>
                         Ready to give us a try?
