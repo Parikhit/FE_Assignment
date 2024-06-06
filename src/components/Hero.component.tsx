@@ -1,9 +1,30 @@
 import DownloadButton from './DownloadButton.component';
 
-const lists: { id: number; item: string }[] = [
+const list1: { id: number; item: string }[] = [
     { id: 1, item: 'Same day treatment' },
     { id: 2, item: 'Board-certified practitioners' },
     { id: 3, item: 'Satisfaction guarantee' },
+];
+
+const list2: { id: number; logo: string; title: string; description: string }[] = [
+    {
+        id: 1,
+        logo: '24-7.png',
+        title: 'Always available',
+        description: 'Skip the trip and start your visit any time.',
+    },
+    {
+        id: 2,
+        logo: 'money.svg',
+        title: "A price that doesn't hurt",
+        description: 'Your visit is $59 and even less with insurance.',
+    },
+    {
+        id: 3,
+        logo: 'treatment.png',
+        title: 'Prescriptions & treatment plans',
+        description: "You'll get a customized treatment plans & prescriptions.",
+    },
 ];
 
 const Hero = () => (
@@ -15,12 +36,12 @@ const Hero = () => (
                         Your favourite <br /> online clinic.
                     </h1>
                     <ol>
-                        {lists.map((list) => {
+                        {list1.map((list) => {
                             const { id, item } = list;
                             return (
                                 <li
                                     key={id}
-                                    className='font-normal text-gray-600 text-left'
+                                    className='text-gray-500 font-semibold'
                                 >
                                     {item}
                                 </li>
@@ -91,24 +112,39 @@ const Hero = () => (
                 </div>
             </section>
             <section className='lg:w-1/2 flex flex-col gap-6 text-right'>
-                <div className='flex flex-col justify-center gap-4'>
-                    <p className='text-md font-medium text-purple-900'>Why simple is better</p>
-                    <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold text-purple-900'>
+                <div className='w-full flex flex-col justify-center gap-4'>
+                    <p className='text-md text-left font-medium text-purple-900'>
+                        Why simple is better
+                    </p>
+                    <h1 className='text-2xl text-left sm:text-3xl md:text-4xl font-bold text-purple-900'>
                         Smart and affordable.
                     </h1>
-                    <ol>
-                        {lists.map((list) => {
-                            const { id, item } = list;
+                    <ul className='p-4'>
+                        {list2.map((list) => {
+                            const { id, logo, title, description } = list;
                             return (
                                 <li
                                     key={id}
-                                    className='font-normal text-gray-600 text-right'
+                                    className='flex items-center text-left font-normal text-gray-600 m-4'
                                 >
-                                    {item}
+                                    <div>
+                                        <img
+                                            src={logo}
+                                            alt='logo'
+                                            width={60}
+                                            height={60}
+                                        />
+                                    </div>
+                                    <div className='ml-2'>
+                                        <h2 className='text-lg text-purple-800 font-bold'>
+                                            {title}
+                                        </h2>
+                                        <p className='text-gray-500 font-semibold'>{description}</p>
+                                    </div>
                                 </li>
                             );
                         })}
-                    </ol>
+                    </ul>
                 </div>
             </section>
         </div>

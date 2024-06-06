@@ -5,12 +5,9 @@ import App from './App.tsx';
 
 import './index.css';
 
-import Header from './components/Header.component.tsx';
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <BrowserRouter>
-            <Header />
             <App />
         </BrowserRouter>
     </React.StrictMode>
