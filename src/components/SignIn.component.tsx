@@ -16,7 +16,10 @@ const SignIn = () => {
 
             <div className='w-4/5 h-[30rem] border bg-gray-100'>
                 <h1 className='text-2xl p-6 mt-3'>Customer Login</h1>
-                <form className='flex flex-col justify-center items-center w-full h-full gap-6'>
+                <form
+                    onSubmit={() => navigate('/questions')}
+                    className='flex flex-col justify-center items-center w-full h-full gap-6'
+                >
                     <input
                         type='email'
                         placeholder='Email address'
@@ -31,7 +34,6 @@ const SignIn = () => {
                     />
 
                     <button
-                        onClick={() => navigate('/questions')}
                         type='submit'
                         className='bg-purple-800 text-white p-2 w-3/5 text-xl rounded-lg mt-8'
                     >
