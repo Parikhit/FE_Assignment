@@ -32,7 +32,7 @@ const SignIn = () => {
 
                     <button
                         onClick={() => navigate('/questions')}
-                        type='button'
+                        type='submit'
                         className='bg-purple-800 text-white p-2 w-3/5 text-xl rounded-lg mt-8'
                     >
                         Start Exam
