@@ -84,6 +84,7 @@ const Hero = () => (
                         className='opacity-35'
                         src='blob1.svg'
                         alt='background'
+                        fetchPriority='high'
                     />
                     <div className='absolute'>
                         <img
@@ -107,6 +108,7 @@ const Hero = () => (
                         <img
                             src='doctor-image.png'
                             alt='Our App'
+                            fetchPriority='high'
                         />
                     </div>
                 </div>

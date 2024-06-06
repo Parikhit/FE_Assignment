@@ -18,6 +18,7 @@ const Description = () => {
                         width={400}
                         height={400}
                         className='rounded-lg w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] object-contain'
+                        fetchPriority='high'
                     />
                 </div>
 
@@ -52,6 +53,7 @@ const Description = () => {
                         width={400}
                         height={400}
                         className='rounded-lg w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] object-contain'
+                        fetchPriority='high'
                     />
                 </div>
             </div>
@@ -64,6 +66,7 @@ const Description = () => {
                         width={400}
                         height={400}
                         className='rounded-lg w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] object-contain'
+                        fetchPriority='high'
                     />
                 </div>
 
@@ -98,6 +101,7 @@ const Description = () => {
                         width={400}
                         height={400}
                         className='rounded-lg w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] object-contain'
+                        fetchPriority='high'
                     />
                 </div>
             </div>
@@ -110,6 +114,7 @@ const Description = () => {
                         width={400}
                         height={400}
                         className='rounded-lg w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] object-contain'
+                        fetchPriority='high'
                     />
                 </div>
 
@@ -171,6 +176,7 @@ const Description = () => {
                         className='absolute w-[200px] md:w-[300px]'
                         src='app.png'
                         alt='app'
+                        fetchPriority='high'
                     />
                 </div>
             </div>

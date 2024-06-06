@@ -4,6 +4,7 @@ const Logo = () => {
             <img
                 src='logo.png'
                 alt='Logo'
+                fetchPriority='high'
             />
         </div>
     );
