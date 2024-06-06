@@ -21,11 +21,13 @@ const SignIn = () => {
                         type='email'
                         placeholder='Email address'
                         className='px-4 py-2 border w-3/5 m-0 rounded-md'
+                        required
                     />
                     <input
                         type='password'
                         placeholder='password'
                         className='px-4 py-2 border w-3/5 m-0 rounded-md'
+                        required
                     />
 
                     <button
