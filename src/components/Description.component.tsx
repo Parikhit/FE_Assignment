@@ -137,7 +137,7 @@ const Description = () => {
             </div>
 
             <div className='flex w-full flex-col sm:flex-row items-center justify-between p-4 h-[400px] mb-6'>
-                <div className='w-1/2 sm:w-fit  flex flex-col gap-4 sm:w-1/2'>
+                <div className='flex flex-col gap-4 sm:w-fit'>
                     <p className='text-xl text-purple-800 font-semibold'>We're here to help</p>
                     <h1 className='text-2xl md:text-3xl font-bold text-purple-800'>
                         Ready to give us a try?
